@@ -33,7 +33,7 @@ services:
       - prometheus
 
   minio-exporter:
-    image: quay.io/prometheus-community/minio-exporter
+    image: minio/minio-exporter
     ports:
       - 9689:9689
     environment:
